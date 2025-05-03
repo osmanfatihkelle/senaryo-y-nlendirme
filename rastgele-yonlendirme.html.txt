@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Senaryo Yönlendirme</title>
+  <script>
+    window.onload = function () {
+      const links = [
+        "https://docs.google.com/forms/d/1JK9f4i6Syjr4YiL7OmlwNu1E_VwQYdvv7rNwMQMzM3k/edit", // Senaryo 1
+        "https://docs.google.com/forms/d/1I4NXEfLcQPHsVvuGmxnV8yE_69mpU_Hs8DuEXc4tLvY/edit", // Senaryo 2
+        "https://docs.google.com/forms/d/1Crpkt-g1X9NqTgEXFv1d0NreUD_wrHaTpiqO2JP7PSY/edit"  // Senaryo 3
+      ];
+      const randomIndex = Math.floor(Math.random() * links.length);
+      window.location.href = links[randomIndex];
+    };
+  </script>
+</head>
+<body>
+  <p>Rastgele bir senaryoya yönlendiriliyorsunuz, lütfen bekleyiniz...</p>
+</body>
+</html>
